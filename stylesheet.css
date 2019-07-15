@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+.canvas {
+	height: 100%;
+	width: 1320px;
+	background-color: #FFF;
+	margin-top: -8px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header {
+	background-color: #FFF;
+	height: 100px;
+	width: 1320px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu_bar {
+	height: 50px;
+	width: 1320px;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	text-align: center;
+	padding-left: 450px;
+	background-repeat: repeat;
+	background-image: url(img/menubg.gif);
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+.slider {
+	background-color: #CCC;
+	height: 313px;
+	width: 1320px;
+	background-image: url(img/slidebg.gif);
+	background-repeat: repeat;
+	margin-top: -12px;
+	padding-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slider {
+	background-color: #CCC;
+	height: 150px;
+	width: 1320px;
+	background-image: url(img/slidebg.gif);
+	background-repeat: repeat;
+	margin-top: -12px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+
+#inslide {
+	height: 240px;
+	width: 1000px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border-radius: 15px 15px 15px 15px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.inslide {
+	height: 150px;
+	width: 860px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border-radius: 15px 15px 15px 15px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.inner_frame {
+	background-color: #FFF;
+	height: 100%;
+	width: 1000px;
+	margin-top: -35px;
+	align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+.bluetext {
+	color: #03F;
+	text-align: left;
+	background-color: #FFF;
+}
+
+.content_1 {
+	float: left;
+	height: 100px;
+	width: 300px;
+	margin-right: auto;
+	background-color: #FFF;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #333;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.content_2 {
+	float: left;
+	height: 100px;
+	width: 300px;
+	margin-right: auto;
+	background-color: #FFF;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #333;
+	text-align: center;
+}
+
+.content_3 {
+	float: left;
+	height: 100px;
+	width: 300px;
+	margin-right: auto;
+	background-color: #FFF;
+	clear: none;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.content {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	align: center;
+	height: 120px;
+	width: 950px;
+}
+
+.welcome {
+	background-color: #FFF;
+	height: 280px;
+	width: 1000px;
+	clear: both;
+	padding-top: 20px;
+}
+
+.service {
+	background-color: #FFF;
+	height: 460px;
+	width: 960;
+	margin-top: 0px;
+	padding: 20px;
+}
+
+#others {
+	list-style-type: circle;
+	word-spacing: 0.8em;
+	font-size: small;
+	list-style-image: url(img/list.gif);
+}
+#list {
+	list-style-image: url(img/list.gif);
+}
+
+.service_1 {
+	background-color: #FFF;
+	height: 400px;
+	width: 665px;
+	margin-top: 15px;
+	float: left;
+	margin-right: 10px;
+}
+
+.serv1 {
+	height: 150px;
+	width: 190px;
+	margin-top: auto;
+	margin-left: 20px;
+	border: medium dotted #CCC;
+	float: left;
+}
+
+.serv2 {
+	height: 150px;
+	width: 190px;
+	margin-top: auto;
+	margin-left: 20px;
+	border: medium dotted #CCC;
+	float: left;
+}
+
+.serv3 {
+	height: 150px;
+	width: 190px;
+	margin-top: auto;
+	margin-left: 20px;
+	border: medium dotted #CCC;
+	float: left;
+}
+
+#serv2 {
+	list-style-type: disc;
+	text-align: left;
+}
+
+#serv3 {
+	text-align: left;
+	list-style-type: disc;
+}
+
+#grad {
+	margin-right: auto;
+	font-size: x-small;
+	text-align: justify;
+	width: 170px;
+	float: left;
+	margin-top: 20px;
+	height: 100px;
+	padding: 0px;
+}
+
+#grad_img {
+	margin-left: 38px;
+}
+
+#lib_img {
+	margin-left: 38px;
+	}
+
+#lib {
+	float: left;
+	width: 100px;
+	font-size: x-small;
+	margin-top: 10px;
+}
+
+.service_2 {
+	height: 400px;
+	width: 285px;
+	margin-top: 20px;
+	float: left;
+	background-color: #FFF;
+}
+
+#welcome_text {
+	margin-top: -23px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+}
+
+#serv1 {
+	list-style-type: disc;
+	list-style-image: none;
+	text-align: left;
+}
+
+.footer {
+	background-color: #000;
+	clear: both;
+	height: 100px;
+	width: 1320px;
+	padding-top: 10px;
+	border-top-width: thick;
+	border-top-style: solid;
+	border-top-color: #09C;
+	border-right-color: #36C;
+	border-bottom-color: #36C;
+	border-left-color: #36C;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+b {font-size:medium;
+}
+#post_edit {
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	text-align: center;
+	color: #03C;
+}
+
+.text_edit {
+	font-size: large;
+	color: #F00;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-shadow: 2px 2px #03C;
+}
+a {
+	color:#06C
+}
+
+a:hover{ 
+     color:#03C
+     font-size:9px;
+}
+
+.a:hover {
+	color: #06C;
+	font-size: 9px;
+	}
+	
+.h2 {
+	color:#FFF}	
+
+.contact_form {
+	width: 55%;
+	float: left;
+	padding-right: 5px;
+	background-color: #ffffff;
+}
+
+.info {
+	float: left;
+	width: 42%;
+	text-align: left;
+	padding-left: 5px;
+	margin-left: 5px;
+	background-color: #ffffff;
+}
+
+.input{
+	background-image: url(img/input.png);
+	width: 280px;
+	background-repeat: no-repeat;
+	padding: 8px;
+	border: 0px;
+	vertical-align: middle;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-radius:5px;
+	}
+.college_list {
+	text-align: left;
+	width: 40%;
+	padding-left: 10px;
+	list-style-image: url(img/list.gif);
+	float: left;
+	background-color: #FFF;
+	padding-top: 20px;
+}
